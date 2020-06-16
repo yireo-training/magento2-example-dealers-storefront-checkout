@@ -10,6 +10,5 @@ composer require yireo-training/magento2-example-dealers-storefront-checkout:dev
 - Adds an additional step in the checkout
 - Loads data from an AJAX URL `exampleDealersCheckout/ajax/selectOptions`
 - Allows you to select a preferred dealer in the checkout step
-
-### Todo
 - Selected field is saved to `exampleDealersCheckout/ajax/savePreferredDealer`
+- Saved field is reloaded again in the CustomerData section `cart`
