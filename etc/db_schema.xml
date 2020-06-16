@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="quote">
+        <column xsi:type="smallint" name="preferred_dealer_id" padding="5" unsigned="true" nullable="false" identity="false" default="0" comment="Preferred Dealer ID"/>
+    </table>
+</schema>
