@@ -58,7 +58,7 @@ define(
                 $.post("/exampleDealersCheckout/ajax/savePreferredDealer", {'id': preferredDealerId})
                     .done(function () {
                         messageList.addSuccessMessage({message: 'Saved preferred dealer'});
-                        customerData.invalidate('cart');
+                        customerData.invalidate(['cart']);
                         stepNavigator.next();
                     })
                     .fail(function (data) {
