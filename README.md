@@ -1,6 +1,8 @@
 # Magento 2 Step in Checkout
 Magento 2 module showing how to add a step in the checkout
 
+**This module is abandoned and no longer maintained. We have moved to our new [LokiCheckout](https://loki-checkout.com/) instead.**
+
 ### Installation
 ```
 composer require yireo-training/magento2-example-dealers-storefront-checkout:dev-master
